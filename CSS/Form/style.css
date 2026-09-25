@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 240, 240);
+    font-size: 13px;
+}
+
+.container {
+    width: 90%;
+    margin: 25px auto;
+    border: 1px solid #555;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 14px;
+    margin: 5px 0 12px;
+}
+
+fieldset {
+    border: 1px solid #999;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 5px;
+    vertical-align: middle;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+select {
+    height: 22px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    width: 150px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+.small {
+    width: 60px !important;
+}
+
+.large {
+    width: 180px !important;
+}
+
+
+
+
+.qualification th {
+    text-align: left;
+}
+
+.qualification input,
+.qualification select {
+    width: 100px;
+}
+
+
+
+
+.language th {
+    text-align: left;
+}
+
+.language td {
+    padding: 4px;
+}
+
+
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 3px 10px;
+    font-size: 11px;
+    margin: 2px;
+}
