@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body1{
+    /* background-color: blue; */
+}
+#Gmial{
+    height: 1px;
+    width: 1px;
+}
+
+.sec{
+       margin: 40px;
+       padding: 30px;
+       
+
+    border: 8px solid ;
+    border-color: black;
+
+    width: 350px;
+    height: 350px;
+
+}
+
+
+#p1{
+    
+    color: blue;
+}
+#d1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#login{
+     display: flex;
+    align-items: center;
+    background-color: blue;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 5px
+
+    
+}
+
+#h1{
+    display: flex;
+    margin: 20px;
+    padding: 1px;
+    
+    
+}
+#h2{
+    color: blue;
+
+}

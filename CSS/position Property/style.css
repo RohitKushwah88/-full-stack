@@ -2,11 +2,62 @@
     margin: 0;
     padding: 0;
 }
-
-*{
-    background-color: beige;
+.head{
+    position: sticky;
+    top: 10px;
 }
 
-#{
+.head1 {
+    background: #a1d5e9;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    
+    
+}
+
+.head2 {
+    display: flex;
+    
+    gap: 25px;
+}
+
+.about-me{
+    
+    text-align: center;
+    margin: 30px 20px;
+
+   .ab{
+        font-size: xx-large;
+    }
+    
+    .p-about{
+    
+        margin: 10px 440px;
+        width: 600px;
+        font-size: large;
+    } 
+}
+
+.project{
+    text-align: center;
+    font-size: xx-large;
+    margin: 40px 20px;
+
+    .img{
+        margin: 40px 0px 0px 0px;
+    }
+}
+
+.btn {
+    padding: 15px 40px;
+    border: 2px solid;
+    background: #e6b2b2;
+    border-color: red;
+    color: red;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px gray;
+
     
 }

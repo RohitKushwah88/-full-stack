@@ -1,0 +1,328 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+
+    background: #4169e8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* MAIN CONTAINER hai yeh  */
+
+.container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+
+    padding: 30px;
+}
+
+
+/* CARD */
+
+.card {
+    background: white;
+
+    width: 272px;
+    min-height: 297px;
+
+    padding: 19px;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+
+/* REGISTRATION from  */
+
+.register-card {
+    width: 296px;
+    min-height: 398px;
+}
+
+
+/* HEADING */
+
+.card h2 {
+    display: inline-block;
+
+    position: relative;
+
+    color: #333;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    margin-bottom: 27px;
+}
+
+
+/* BLUE LINE UNDER HEADING */
+
+.card h2::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -4px;
+
+    width: 19px;
+    height: 3px;
+
+    background: #4169e8;
+
+    border-radius: 2px;
+}
+
+
+/* INPUT */
+
+.input-box {
+
+    height: 42px;
+
+    display: flex;
+
+    align-items: center;
+
+    border-bottom: 2px solid #e1e1e1;
+
+    margin-bottom: 12px;
+
+    color: #aaa;
+}
+
+
+/* INPUT ICON */
+
+.input-box > i:first-child {
+
+    width: 25px;
+
+    font-size: 15px;
+
+    color: #aaa;
+}
+
+
+/* INPUT FIELD */
+
+.input-box input {
+
+    flex: 1;
+
+    border: none;
+
+    outline: none;
+
+    height: 100%;
+
+    font-size: 11px;
+
+    color: #555;
+
+    background: transparent;
+}
+
+
+/* PLACEHOLDER */
+
+.input-box input::placeholder {
+
+    color: #b5b5b5;
+}
+
+
+/* EYE ICON */
+
+.input-box .eye {
+
+    width: auto;
+
+    font-size: 13px;
+
+    color: #999;
+
+    cursor: pointer;
+}
+
+
+/* OPTIONS */
+
+.options {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin: 3px 0 31px;
+
+    font-size: 9px;
+}
+
+
+/* CHECKBOX LABEL */
+
+.options label,
+.terms label {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    color: #666;
+
+    cursor: pointer;
+}
+
+
+/* CHECKBOX */
+
+.options input,
+.terms input {
+
+    appearance: none;
+
+    width: 12px;
+    height: 12px;
+
+    border: 2px solid #888;
+
+    border-radius: 3px;
+
+    background: white;
+
+    cursor: pointer;
+}
+
+
+/* CHECKED CHECKBOX */
+
+.options input:checked,
+.terms input:checked {
+
+    background: #4169e8;
+
+    border-color: #4169e8;
+}
+
+
+/* LINKS */
+
+.options a,
+.bottom-text a {
+
+    color: #4169e8;
+
+    text-decoration: none;
+}
+
+
+/* BUTTON */
+
+.card button {
+
+    width: 100%;
+
+    height: 35px;
+
+    border: none;
+
+    border-radius: 4px;
+
+    background: #4169e8;
+
+    color: white;
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+
+/* BUTTON HOVER */
+
+.card button:hover {
+
+    background: #3159d5;
+}
+
+
+/* BOTTOM TEXT */
+
+.bottom-text {
+
+    text-align: center;
+
+    color: #777;
+
+    font-size: 9px;
+
+    margin-top: 17px;
+}
+
+
+/* TERMS */
+
+.terms {
+
+    margin: 1px 0 30px;
+
+    font-size: 9px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    body {
+
+        align-items: flex-start;
+
+        padding: 35px 15px;
+
+        overflow-y: auto;
+    }
+
+    .container {
+
+        flex-direction: column;
+
+        gap: 30px;
+
+        padding: 0;
+    }
+
+    .card,
+    .register-card {
+
+        width: 100%;
+
+        max-width: 310px;
+    }
+}
