@@ -51,7 +51,7 @@ body {
 /* REGISTRATION from  */
 
 .register-card {
-    width: 296px;
+    width: 300px;
     min-height: 398px;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 
-/* BLUE LINE UNDER HEADING */
+/* BLUE LINE*/ 
 
 .card h2::after {
 
@@ -93,7 +93,7 @@ body {
 }
 
 
-/* INPUT */
+
 
 .input-box {
 
