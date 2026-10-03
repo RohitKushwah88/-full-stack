@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#card {
+    mar
+    height: 200px;
+    width: 120px;
+    border: 3px solid #ec0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+#card:hover{
+
+    transform: translateX(20px,20px);
+    transition:  transform 1s ;
+}
+
+#bhai{
+
+    background-color: #ec0c0c;
+}
+#btn{
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: rgba(233, 232, 230, 0.92);
+}
+
+#btn:hover{
+    background-color: cadetblue;
+}
+
+#btn:active{
+    background-color: #ec0c0c;
+    color: aqua;
+    transform: translate(2px 2px );
+     
+
+    
+}
+
+
+
+#dappa{
+
+    height: 40px;
+    width: 90px;
+    background-color: aquamarine;
+    position: absolute;
+    border: 1px solid black;
+    animation:  rohit 2s infinite ;
+}
+
+
+
+@keyframes rohit {
+    0%{
+        top: 0;
+        left: 0;
+
+    }
+    25%{
+        top: 0;
+        left: 1000px;
+
+    }
+    50%{
+        top: 1000px;
+        left: 1500px;
+
+    }
+    75%{
+         top: 1000px;
+        left: 0;
+
+    }
+    100%{
+        top: 0;
+        left: 0;
+
+    }
+
+
+
+}
