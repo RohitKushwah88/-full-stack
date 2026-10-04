@@ -942,11 +942,6 @@ body {
     transform: translateY(-2px);
 }
 
- /* .cta-button span{
-    font-size: 20px;
- } */
-
-
 
  .site-footer{
     position: relative;
@@ -1082,7 +1077,7 @@ social-links {
 }
 
 
-/* EMAIL */
+
 
 .email-box {
     width: 100%;
@@ -1149,10 +1144,6 @@ social-links {
 }
 
 
-/* =========================
-   BOTTOM
-========================= */
-
 .site-footer {
     width: 100%;
     padding: 45px 6% 18px;
@@ -1179,8 +1170,6 @@ social-links {
 }
 
 
-/* BRAND */
-
 .footer-brand h3 {
     margin: 0 0 12px;
     font-size: 18px;
@@ -1198,8 +1187,6 @@ social-links {
 }
 
 
-/* SOCIAL */
-
 .social-links {
     display: flex;
     gap: 8px;
@@ -1215,8 +1202,6 @@ social-links {
 }
 
 
-/* HEADINGS */
-
 .footer-links h4,
 .footer-newsletter h4 {
     margin: 0 0 13px;
@@ -1224,8 +1209,6 @@ social-links {
     font-size: 12px;
 }
 
-
-/* LINKS */
 
 .footer-links {
     display: flex;
@@ -1237,9 +1220,6 @@ social-links {
     font-size: 13px;
 }
 
-
-/* NEWSLETTER */
-
 .footer-newsletter p {
     max-width: 300px;
 
@@ -1248,9 +1228,6 @@ social-links {
     font-size: 13px;
     line-height: 1.5;
 }
-
-
-/* EMAIL */
 
 .email-box {
     max-width: 300px;
@@ -1265,8 +1242,6 @@ social-links {
     width: 45px;
 }
 
-
-/* BOTTOM */
 
 .footer-bottom {
     max-width: 1200px;
@@ -1287,9 +1262,6 @@ social-links {
 .footer-policy a {
     font-size: 10px;
 }
-
-
-/* BACK TO TOP */
 
 .back-top {
     right: 25px;
