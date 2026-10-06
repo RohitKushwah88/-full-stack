@@ -89,7 +89,7 @@
       </div>
     </footer> -->
 
-     <style>
+     <!-- <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -218,13 +218,13 @@
 
             box-shadow: 0 8px 20px rgba(37, 80, 200, 0.3);
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
 
 
-<footer class="footer">
+<!-- <footer class="footer">
 
   
     <div class="container py-5">
@@ -375,12 +375,247 @@
 
     </div>
 
-</footer>
+</footer> -->
 
 
-<button class="top-btn">
+<!-- <button class="top-btn">
     <i class="bi bi-arrow-up"></i>
-</button>
+</button> -->
+
+
+
+
+ <section class="py-5">
+
+  <div class="container">
+
+    <div class="text-center mb-3">
+      <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-2">
+        • Questions
+      </span>
+    </div>
+
+    <h1 class="text-center fw-bold mb-5">
+      Frequently asked questions
+    </h1>
+
+    <!-- ONE parent accordion -->
+    <div class="accordion" id="faqAccordion">
+
+      <!-- Q1 -->
+      <div class="accordion-item">
+
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button fw-semibold text-primary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#questionOne">
+
+            How Quickly Can we get started?
+
+          </button>
+        </h2>
+
+        <div
+          id="questionOne"
+          class="accordion-collapse collapse show"
+          data-bs-parent="#faqAccordion">
+
+          <div class="accordion-body fs-5">
+            Most engagements kick off within 1–2 weeks of signing.
+            For urgent projects, we can sometimes start sooner depending
+            on team availability.
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Q2 -->
+      <div class="accordion-item">
+
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed fw-semibold"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#questionTwo">
+
+            Do you work with early-stage start-ups?
+
+          </button>
+        </h2>
+
+        <div
+          id="questionTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#faqAccordion">
+
+          <div class="accordion-body">
+            Yes — about a third of our clients are pre-Series A.
+            We offer scoped MVP packages designed for speed and
+            budget sensitivity.
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Q3 -->
+      <div class="accordion-item">
+
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed fw-semibold"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#questionThree">
+
+            What tools and frameworks do you use?
+
+          </button>
+        </h2>
+
+        <div
+          id="questionThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#faqAccordion">
+
+          <div class="accordion-body">
+            It depends on your existing stack, but commonly React,
+            Node.js, Next.js and AWS/GCP infrastructure, paired
+            with Figma for design.
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Q4 -->
+      <div class="accordion-item">
+
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed fw-semibold"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#questionFour">
+
+            Can you take over an existing codebase?
+
+          </button>
+        </h2>
+
+        <div
+          id="questionFour"
+          class="accordion-collapse collapse"
+          data-bs-parent="#faqAccordion">
+
+          <div class="accordion-body">
+            Absolutely. We start every takeover with a technical
+            audit so we understand the codebase before making changes.
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>.
+
+  <section class="py-5 p-lg-5">
+
+    <div class="text-start  mb-3">
+      <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-2">
+        • SEND A MESSAGE
+      </span>
+      <br>
+      <br>
+
+      <div class="display-6 fw-semibold"> Tell us about your project </div>
+    </div>
+
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="fullname" class="form-label"> Full Name </label>
+            <input type="text" name="fullName" id="fullname" required class="form-control">
+        </div>
+        <div class="col-md-6">
+            <label for="work email" class="form-label"> Work Email </label>
+            <input type="email" name="work email" id="work email" class="form-control">
+        </div>
+        
+
+        <div class="col-md-6">
+            <label for="company" class="form-label"> Company</label>
+            <input type="text" name="company" id="company" class="form-control">
+        </div>
+        <div class="col-md-4">
+            <label for="eB" class="form-label"> Estimated Budget</label>
+            <select id="service" class="form-select">
+                    <option> Under $5,000</option>
+                    <option> $5,000-$15,000</option>
+                    <option>$15,000-$50,000 </option>
+                    <option>$50,000+ </option>
+
+                </select>
+
+        </div>
+
+        <div class="row g-3 ">
+            <div class="col-md-8">
+                <label for="services" class="form-label">
+                    Services Needed
+                </label>
+                <select id="service" class="form-select">
+                  
+                     <option> Product Strategy</option>
+                    <option> UI/UV Design</option>
+                    <option>Web Developmengt </option>
+                    <option>Growth Marketing </option>
+                    <option> something else</option>
+
+                </select>
+                 
+            </div>
+
+        </div>
+
+        <div class="row g-3">
+            <div class="col-md-8">
+                <label for="PD" class="form-label">
+                    Project Details 
+                </label>
+                <textarea class="form-control" id="PD" rows="3"></textarea>
+            </div>
+
+        </div>
+ <br>
+     <div class="form-check mb-3">
+        <input type="checkbox" id="Privacy" class="form-check-input">
+        <label class="form-check-label" for="Privacy">
+            I agree to the <a href="#">Pravacy Policy</a>
+            and consent to being contacted about my inquiry.
+
+        </label>
+        
+     </div>
+
+     <div>
+        <button class="btn  btn-primary " type="submit"> Send message
+        <span>▶▶</span>
+     </button>
+     </div>
+        
+            
+    </form>
+
+
+  </section>
+  
 
     <script
       src="https://cdn.jsdel ivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
